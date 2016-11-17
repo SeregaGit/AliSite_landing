@@ -1,0 +1,298 @@
+.obertka{
+    margin: 0 auto;
+    width: 1366px;
+    border: 0px solid;
+}
+/*--------------Первая линия-----------------*/
+.girlwithdog{
+    width: 908px;
+    height: 715px;
+    display: inline-block;
+    position: relative;
+    background-image: url("girlwithdog.jpg");
+
+
+}
+.white{
+    display: inline-block;
+    position: relative;
+    background-image: url("white.jpg");
+    width: 458px;
+    height: 715px;
+    float: right;
+
+}
+
+/*Свойства текста в белом блоке */
+
+.menuline{
+    display: inline-block;
+    position: relative;
+    margin: 60px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.text{
+    display: inline-block;
+    position: relative;
+    font-family: "Myriad Pro", Serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px 60px 0px 60px;
+    color: black;
+}
+.bold{
+    font-weight:bold;
+}
+.ptext{
+    font-family: "Myriad Pro", Serif;
+    font-size: 18px;
+    margin: 60px;
+    color: black;
+}
+/*-----------------------------------*/
+
+/*--------------Вторая линия-----------------*/
+.secondline{
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+.blue{
+    width: 614px;
+    height: 853px;
+    display: inline-block;
+    position: absolute;
+    background-image: url("blue.jpg");
+}
+
+.bothblock{
+    display: inline-block;
+    position: relative;
+}
+.backtoschool{
+    display: inline-block;
+    position: relative;
+    background-image: url("backtoschool.jpg");
+    width: 752px;
+    height: 427px;
+    float: right;
+}
+.dinamic{
+    background-image: url("dinamic.jpg");
+
+}
+
+/*Свойства текста во втором блоке */
+.first{
+    display: inline-block;
+    position: relative;
+}
+.h1text {
+    display: inline-block;
+    position: relative;
+    font-family: "Myriad Pro", Serif;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 60px 60px 0px 60px;
+    color: white;
+}
+
+p {
+    font-family: "Myriad Pro", Serif;
+    font-size: 17px;
+    margin: 30px 104px 0px 60px;
+    line-height: 25px;
+    color: white;
+}
+
+.backtoschool h1{
+    color: black;
+}
+.backtoschool p{
+    font-family: "Myriad Pro", Serif;
+    font-size: 17px;
+    margin: 30px 162px 0px 60px;
+    line-height: 25px;
+    color: black;
+}
+
+.dinamic h1{
+    color: white;
+}
+.dinamic p{
+    font-family: "Myriad Pro", Serif;
+    font-size: 17px;
+    margin: 30px 162px 0px 60px;
+    line-height: 25px;
+    color: white;
+}
+/*-----------------------------------*/
+
+
+.button {
+    display: inline-block;
+    width: 210px;
+    padding: 17px 0px 17px 0px;
+    border-radius: 10px;
+    margin: 60px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.button:hover,
+.button:active {
+    background-color: black;
+    color: white;
+}
+.button2 {
+    display: inline-block;
+    width: 210px;
+    padding: 17px 0px 17px 0px;
+    border-radius: 10px;
+    margin: 60px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.button2:hover,
+.button2:active {
+    background-color: white;
+    color: black;
+}
+
+a{
+    font-family: "Myriad Pro", Serif;
+    font-size: 16px;
+}
+
+
+
+/*--------------Третья линия-----------------*/
+.thirdline{
+    display: inline-block;
+    position: relative;
+    top: -9px;
+}
+.road {
+    width: 908px;
+    height: 715px;
+    display: inline-block;
+    position: relative;
+    background-image: url("road.jpg");
+}
+.girl{
+    display: inline-block;
+    position: relative;
+    background-image: url("girl.jpg");
+    width: 458px;
+    height: 715px;
+    float: left;
+}
+.alisymbol {
+    display: inline-block;
+    position: relative;
+    margin: 270px 0px 0px 60px;
+}
+
+
+/*Свойства текста в третьем блоке */
+.h1new{
+    display: inline-block;
+    position: relative;
+    font-family: "Myriad Pro", Serif;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 34px 60px 0px 60px;
+    color: white;
+}
+h3 {
+    display: inline-block;
+    position: relative;
+    font-family: "Myriad Pro", Serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin: 0px 60px 0px 60px;
+    line-height: 25px;
+}
+/*-----------------------------------*/
+
+
+.facebook{
+    display: inline-block;
+    position: relative;
+    margin: 23px 0px 18px 60px;
+}
+.tribbble{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 0px 0px 0px 7px;
+}
+.twitter{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 0px 0px 0px 7px;
+}
+
+
+/*---Свойства полей ввода---*/
+.input1{
+    display: inline-block;
+    position: relative;
+    margin: 60px 0px 0px 60px;
+}
+.input2{
+    float: right;
+    margin: 0px 0px 0px 13px;
+}
+
+.input3{
+    margin: 13px 0px 0px 60px;
+}
+
+.inputtext{
+    font-family: "Myriad Pro", Serif;
+    font-size: 100%;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding-left: 28px;
+}
+.inputtext1{
+    font-family: "Myriad Pro", Serif;
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-bottom: 20px;
+    padding-right: 28px;
+    font-size: 100%;
+    width: 575px;
+    height: 119px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    margin: 0px 0px 45px 0px;
+}
+/*-----------------------------------*/
+
+/*----Убирает выделение полей ввода при активации-----*/
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.menuline:hover{
+    transform: rotate(90deg);
+    transition: 0.5s all;
+}

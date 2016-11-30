@@ -9,14 +9,14 @@
     height: 715px;
     display: inline-block;
     position: relative;
-    background-image: url("girlwithdog.jpg");
+    background-image: url("../img/girlwithdog.jpg");
 
 
 }
 .white{
     display: inline-block;
     position: relative;
-    background-image: url("white.jpg");
+    background-image: url("../img/white.jpg");
     width: 458px;
     height: 715px;
     float: right;
@@ -54,7 +54,7 @@
 /*-----------------------------------*/
 
 /*--------------Вторая линия-----------------*/
-.secondline{
+.second_section {
     display: inline-block;
     position: relative;
     top: -4px;
@@ -64,7 +64,7 @@
     height: 853px;
     display: inline-block;
     position: absolute;
-    background-image: url("blue.jpg");
+    background-image: url("../img/blue.jpg");
 }
 
 .bothblock{
@@ -74,13 +74,13 @@
 .backtoschool{
     display: inline-block;
     position: relative;
-    background-image: url("backtoschool.jpg");
+    background-image: url("../img/backtoschool.jpg");
     width: 752px;
     height: 427px;
     float: right;
 }
 .dinamic{
-    background-image: url("dinamic.jpg");
+    background-image: url("../img/dinamic.jpg");
 
 }
 
@@ -134,7 +134,7 @@ p {
 .button {
     display: inline-block;
     width: 210px;
-    padding: 17px 0px 17px 0px;
+    padding: 17px 0px;
     border-radius: 10px;
     margin: 60px;
     color: black;
@@ -148,20 +148,23 @@ p {
     background-color: black;
     color: white;
 }
-.button2 {
-    display: inline-block;
-    width: 210px;
-    padding: 17px 0px 17px 0px;
-    border-radius: 10px;
-    margin: 60px;
+.button_mod {
     color: white;
     border: 1px solid white;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
+    }
+.button_mod:hover,
+.button_mod:active {
+    background-color: white;
+    color: black;
 }
-.button2:hover,
-.button2:active {
+
+.button_mod_form {
+    margin: 0px 482px;
+    color: white;
+    border: 1px solid white;
+}
+.button_mod_form:hover,
+.button_mod_form:active {
     background-color: white;
     color: black;
 }
@@ -172,7 +175,7 @@ a{
 }
 
 /*--------------Третья линия-----------------*/
-.thirdline{
+.third_section {
     display: inline-block;
     position: relative;
     top: -9px;
@@ -182,12 +185,12 @@ a{
     height: 715px;
     display: inline-block;
     position: relative;
-    background-image: url("road.jpg");
+    background-image: url("../img/road.jpg");
 }
 .girl{
     display: inline-block;
     position: relative;
-    background-image: url("girl.jpg");
+    background-image: url("../img/girl.jpg");
     width: 458px;
     height: 715px;
     float: left;
@@ -242,12 +245,12 @@ h3 {
 
 
 /*---Свойства полей ввода---*/
-.input1{
+.input_forName {
     display: inline-block;
     position: relative;
     margin: 60px 0px 0px 60px;
 }
-.input2{
+.input_forMail {
     float: right;
     margin: 0px 0px 0px 13px;
 }
@@ -256,7 +259,7 @@ h3 {
     margin: 13px 0px 0px 60px;
 }
 
-.inputtext{
+.input_text{
     font-family: "Myriad Pro", Serif;
     font-size: 100%;
     width: 280px;
@@ -267,12 +270,10 @@ h3 {
     color: white;
     padding-left: 28px;
 }
-.inputtext1{
+.input_text_area{
     font-family: "Myriad Pro", Serif;
-    padding-top: 20px;
-    padding-left: 28px;
-    padding-bottom: 20px;
-    padding-right: 28px;
+    padding: 20px 28px 20px 28px;
+
     font-size: 100%;
     width: 575px;
     height: 119px;
@@ -280,7 +281,8 @@ h3 {
     border: 1px solid white;
     background: none;
     color: white;
-    margin: 0px 0px 45px 0px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
 }
 /*-----------------------------------*/
 
